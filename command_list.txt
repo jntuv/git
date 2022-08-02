@@ -14,3 +14,14 @@ CREATE_BRANCH: git branch branch_name
 MOVE_BRANCH:git checkout branch_name
 MERGE:git merge branch_name
 REVERT_STAGING: git restore --staged
+GIT_REMOTE_SEQUENCE: 
+*git remote
+*git remote add origin https://example.git
+*git push -u origin master
+*git push (after local repo commits)
+*git clone https://example.com folder_name
+
+
+
+
+
