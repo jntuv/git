@@ -1,0 +1,4 @@
+RENAME: git mv hello hello.txt
+CREATE: >hello.txt
+DELETE: git rm -r hello.txt
+PUSH:git push
