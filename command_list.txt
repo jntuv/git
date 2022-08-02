@@ -7,3 +7,10 @@ OPEN:start hello.txt
 ALL_FILES:ls
 STATUS:git status
 SEQUENCE:>hello.txt/git add hello.txt/git commit -m "ok"/git push
+GIT_IGNORE:touch .gitignore
+RESET:git reset HEAD hello.txt
+INIT:git init
+CREATE_BRANCH: git branch branch_name
+MOVE_BRANCH:git checkout branch_name
+MERGE:git merge branch_name
+REVERT_STAGING: git restore --staged
