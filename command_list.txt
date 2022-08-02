@@ -2,3 +2,8 @@ RENAME: git mv hello hello.txt
 CREATE: >hello.txt
 DELETE: git rm -r hello.txt
 PUSH:git push
+PULL:git pull
+OPEN:start hello.txt
+ALL_FILES:ls
+STATUS:git status
+SEQUENCE:>hello.txt/git add hello.txt/git commit -m "ok"/git push
