@@ -1,3 +1,8 @@
+INIT:
+*git --version
+*git init
+*git status
+*
 RENAME: git mv hello hello.txt
 CREATE: >hello.txt
 DELETE: git rm -r hello.txt
