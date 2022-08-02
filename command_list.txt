@@ -2,7 +2,11 @@ INIT:
 *git --version
 *git init
 *git status
-*
+*git config --global user.name "FIRST_NAME LAST_NAME"
+*git config --global user.email "MY_NAME@example.com"
+*git config user.name "FIRST_NAME LAST_NAME" (repo specific)
+*git config user.email "MY_NAME@example.com" (repo specific)
+*cat .git/config (to view config file)
 RENAME: git mv hello hello.txt
 CREATE: >hello.txt
 DELETE: git rm -r hello.txt
