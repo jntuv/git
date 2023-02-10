@@ -29,8 +29,10 @@ GIT_REMOTE_SEQUENCE:
 *git push -u origin master
 *git push (after local repo commits)
 *git clone https://example.com folder_name
-online
-offline
+now do practicals:
+touch webpage.html // to create
+echo "<html" >> webpage.html // to add text
+
 
 
 
