@@ -8,7 +8,7 @@ INIT:
 *git config user.email "MY_NAME@example.com" (repo specific)
 *cat .git/config (to view config file)
 RENAME: git mv hello hello.txt
-CREATE: >hello.txt
+CREATE: git >hello.txt
 DELETE: git rm -r hello.txt
 PUSH:git push
 PULL:git pull
@@ -33,6 +33,7 @@ now do practicals:
 touch webpage.html // to create new file
 echo "<html" >> webpage.html // to add text
 mkdir folderName // to create new folder
+git push --set-upstream origin b1
 
 
 
