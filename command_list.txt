@@ -33,7 +33,9 @@ now do practicals:
 touch webpage.html // to create new file
 echo "<html" >> webpage.html // to add text
 mkdir folderName // to create new folder
-git push --set-upstream origin b1
+git push --set-upstream origin b1 //setup and push branch to remote
+git config --global --unset-all //logout from git command line
+
 
 
 
