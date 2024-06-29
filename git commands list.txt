@@ -1,0 +1,20 @@
+git init
+// create file1.txt 
+git clone "https://github.com/jntuv/git.git"
+git add . or git add file1.txt
+git commit -m "jhgjh"
+git checkout main
+git branch uat
+git branch dev
+git checkout dev
+//add or update or delete files
+git add.
+git commit -m "jgj"
+git push
+git checkout uat
+git merge dev uat
+git push
+git checkout main
+git merge uat main
+git push
+// repeat the cycle
